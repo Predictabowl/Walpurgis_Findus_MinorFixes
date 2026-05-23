@@ -3,6 +3,9 @@ Walpurgis - No Shield Frag Patch
 
 This patch prevents monsters equipped with shields from being accidentally "auto-fragged" (instant-killed) by movement-inducing effects.
 
+- v1.1.0
+When the ultimate weapon is assembled, Ultimate weapons pieces placed on map will change into a weapon upgrader item, but only if player doesn't have any upgrader item in its inventory. You can disable this behaviour simply by removing the include "SpawnersUltWepons_FI" from inside the DECORATE file
+
 Installation:
 -------------
 This is a patch for the Walpurgis mod. It MUST be loaded AFTER the main Walpurgis files to function correctly.
