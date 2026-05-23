@@ -17,10 +17,11 @@ class WalpShieldPhysicsFix : EventHandler
         }
 
         // Option 2 (Double Safety): Dynamically strip the SOLID flag from the shields so they can never push-telefrag
+        /*
         if (cls == 'CentaurShieldHitbox' || cls == 'CentaurLeaderShieldHitbox' || 
             cls == 'OrkShieldHitbox' || cls == 'OrkLeaderShieldHitbox')
         {
             e.Thing.bSolid = false;
-        }
+        }*/
     }
 }
