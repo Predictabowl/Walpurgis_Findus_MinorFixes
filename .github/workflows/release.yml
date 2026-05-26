@@ -20,18 +20,18 @@ jobs:
       - name: Create PK3 and Zip
         run: |
           VERSION=${{ github.ref_name }}
-          # Create the pk3 file from the Walpurgis_Findus_NoShieldFrag folder
-          cd Walpurgis_Findus_NoShieldFrag
-          zip -r ../Walpurgis_Findus_NoShieldFrag_${VERSION}.pk3 .
+          # Create the pk3 file from the Walpurgis_Findus_MinorFixes folder
+          cd Walpurgis_Findus_MinorFixes
+          zip -r ../Walpurgis_Findus_MinorFixes_${VERSION}.pk3 .
           cd ..
           
           # Create the final zip containing README.txt and the .pk3 file
-          zip Walpurgis_Findus_NoShieldFrag_${VERSION}.zip README.txt Walpurgis_Findus_NoShieldFrag_${VERSION}.pk3
+          zip Walpurgis_Findus_MinorFixes_${VERSION}.zip README.txt Walpurgis_Findus_MinorFixes_${VERSION}.pk3
 
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: Walpurgis_Findus_NoShieldFrag_${{ github.ref_name }}.zip
+          files: Walpurgis_Findus_MinorFixes_${{ github.ref_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
