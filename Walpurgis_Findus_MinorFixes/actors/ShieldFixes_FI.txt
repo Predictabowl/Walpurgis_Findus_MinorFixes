@@ -1,0 +1,15 @@
+ACTOR CentaurSergeantW_Findus : CentaurSergeantW replaces CentaurSergeantW {
+	+THRUSPECIES
+}
+
+ACTOR CentaurEliteW_Findus : CentaurEliteW replaces CentaurEliteW {
+	+THRUSPECIES
+}
+
+ACTOR OrkYoof_Findus : OrkYoof replaces OrkYoof {
+	+THRUSPECIES
+}
+
+ACTOR OrkNob_Findus : OrkNob replaces OrkNob {
+	+THRUSPECIES
+}

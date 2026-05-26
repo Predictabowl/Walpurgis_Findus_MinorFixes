@@ -1,1 +1,2 @@
 #include "actors/SpawnersUltWepons_FI.txt"
+#include "actors/ShieldFixes_FI.txt"
