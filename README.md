@@ -32,4 +32,3 @@ This is a patch for the Walpurgis mod. It **MUST** be loaded **AFTER** the main 
 - [Findus Patch](https://github.com/Predictabowl/Walpurgis_Findus_Patch_repo)
 - [Walpurgis Minor Fixes](https://github.com/Predictabowl/Walpurgis_Findus_MinorFixes)
 - [Faithless Trilogy Compatibility](https://github.com/Predictabowl/Walpurgis_Findus_Faith_Tri_repo)
-
