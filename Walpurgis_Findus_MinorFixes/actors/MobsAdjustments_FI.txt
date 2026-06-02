@@ -14,4 +14,5 @@ ACTOR WarlockW_Findus : WarlockW replaces WarlockW {
 ACTOR SteelGolem_Findus : SteelGolem replaces SteelGolem {
 	//As per Warlock, to avoid getting stuck it must have the size of a mummy
 	Radius 22
+    Tag "Steel Golem"
 }
