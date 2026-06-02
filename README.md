@@ -2,6 +2,7 @@
 
 ## Changelog
 
+- **v1.1.1**: Fixed Some Elite mobs radiuses
 - **v1.1.0**: Fixed "auto-fragging" of shielded monsters by movement effects.
 - **v1.0.0**: Added logic to turn ultimate weapon pieces into upgraders.
 
@@ -22,6 +23,14 @@ In the original configuration, the monster and its shield are two separate solid
 When the ultimate weapon is assembled, Ultimate weapons pieces placed on map will change into a weapon upgrader item, but only if player doesn't have any upgrader item in its inventory.
 
 **Configuration:** You can disable this behaviour simply by removing the include `SpawnersUltWepons_FI` from inside the `DECORATE` file.
+
+### Monster Sizes (v1.1.1)
+
+Some mobs, especially the elite ones, are bigger than their normal counterpart, this can cause problems and break maps since these mobs will get stuck in the geometry, especially in teleporter rooms. For this reason, even if the mobs are visually bigger, I've set their hitbox size as the same as their normal counterpart.
+Monster changed so far:
+
+- SteelGolem
+- WarlockW
 
 ## Installation
 
