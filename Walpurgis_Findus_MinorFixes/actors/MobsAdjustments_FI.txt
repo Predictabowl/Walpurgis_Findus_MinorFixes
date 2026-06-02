@@ -1,0 +1,17 @@
+/* I've changed the sizes of elite monsters to be the same as their normal
+	counterpart, otherwise they'll get stuck in some maps and possibly broke
+	the map itself.
+*/
+
+ACTOR WarlockW_Findus : WarlockW replaces WarlockW {
+    // The original WarlockW (Pain Elemental) has a Radius of 31.
+    // The monster it replaces (Wizard/Disciple) has a Radius of 16.
+    // Setting it to 16 ensures it fits in all vanilla teleport/spawn closets.
+    Radius 16
+    
+}
+
+ACTOR SteelGolem_Findus : SteelGolem replaces SteelGolem {
+	//As per Warlock, to avoid getting stuck it must have the size of a mummy
+	Radius 22
+}

@@ -1,2 +1,3 @@
 #include "actors/SpawnersUltWepons_FI.txt"
 #include "actors/ShieldFixes_FI.txt"
+#include "actors/MobsAdjustments_FI.txt"
